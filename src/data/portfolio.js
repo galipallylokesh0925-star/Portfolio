@@ -1,0 +1,101 @@
+export const portfolio = {
+  candidate: {
+    name: 'G.Lokesh',
+    fullName: 'GALIPALLY LOKESH',
+    currentPosition: 'Computer Science Engineer | Java | Full Stack | AI',
+    college: 'DRK College of Engineering and Technology',
+    about:
+      'I am a final-year B.Tech Computer Science and Engineering student interested in Java, full-stack web development, AI-powered applications, problem solving, and practical software engineering.',
+    hero: {
+      heading: "Hi, I'm G.Lokesh",
+      subheading: 'Computer Science Engineer | Java | Full Stack | AI',
+      supportingText:
+        'I build practical web applications and AI-powered solutions while strengthening my Java, data structures, and software-development skills.',
+    },
+    contact: {
+      phone: '6304013709',
+      email: 'lokeshgalipally0925@gmail.com',
+      linkedin: 'https://www.linkedin.com/in/galipally-lokesh-mahi2006',
+      github: 'https://github.com/galipallylokesh0925-star',
+      resume: '#RESUME_URL_HERE',
+    },
+  },
+  skills: [
+    { category: 'Languages', items: ['Java', 'JavaScript', 'HTML', 'CSS'] },
+    { category: 'Database', items: ['MySQL', 'MongoDB'] },
+    { category: 'Web', items: ['HTML', 'CSS', 'JavaScript', 'Node.js', 'Express.js'] },
+    { category: 'Tools', items: ['Git', 'GitHub', 'VS Code', 'Eclipse'] },
+    { category: 'Core Concepts', items: ['OOP', 'Arrays', 'Methods', 'Problem Solving'] },
+  ],
+  snapshot: [
+    { label: 'B.Tech CSE', value: '2023–2027' },
+    { label: 'Java + Full Stack', value: 'Focus' },
+    { label: 'AI Applications', value: 'Interest' },
+    { label: 'Open to', value: 'Opportunities' },
+  ],
+  projects: [
+    {
+      id: 'ai-tourist',
+      name: 'AI Tourist',
+      category: 'Smart Travel Assistance Platform',
+      overview: 'A travel platform focused on destination discovery and local recommendations.',
+      problem: 'Travel planning can require gathering information from many different sources.',
+      solution: 'AI Tourist brings destination discovery and local travel information into one focused experience.',
+      features: ['Destination discovery and search', 'Local recommendations', 'Travel assistance'],
+      technologies: ['HTML', 'CSS', 'JavaScript', 'Node.js', 'Express.js', 'MongoDB', 'AI'],
+      github: '',
+      liveDemo: '',
+      highlight: 'Destination discovery and local recommendations',
+    },
+    {
+      id: 'pg-life',
+      name: 'PG Life',
+      category: 'Digital Hostel Management',
+      overview: 'A web application for hostel and PG discovery and management.',
+      description: 'A responsive interface with user login, PG listings, and database connectivity.',
+      technologies: ['HTML', 'CSS', 'PHP', 'MySQL'],
+      features: ['User login', 'PG listing', 'Database connectivity', 'Responsive interface'],
+      github: '',
+      liveDemo: '',
+    },
+  ],
+  experience: [
+    {
+      role: 'Full Stack Web Design & Development Trainee',
+      company: 'iStudio',
+      type: 'Training',
+      focus: ['HTML', 'CSS', 'JavaScript', 'Practical web development'],
+    },
+    {
+      role: 'Web Development with AI Trainee',
+      company: 'Internshala',
+      type: 'Training',
+      focus: ['Web development', 'AI-assisted learning'],
+    },
+  ],
+  education: [
+    {
+      degree: 'B.Tech — Computer Science and Engineering',
+      college: 'DRK College of Engineering and Technology',
+      period: '2023 – 2027',
+    },
+    { degree: 'Intermediate', college: 'SR Junior College', period: '2021 – 2023', result: '90.6%' },
+    { degree: 'SSC', college: "St. John's High School", period: '2021', result: '100%' },
+  ],
+  achievements: [
+    { title: 'Full Stack Web Design & Development Trainee', organization: 'iStudio' },
+    { title: 'Web Development with AI Trainee', organization: 'Internshala' },
+    { title: 'AI Skills Passport', organization: 'EY & Microsoft' },
+    { title: 'MS Word & MS Excel', organization: 'SETWIN' },
+  ],
+  learning: [],
+  navLinks: [
+    { label: 'Home', href: '#top' },
+    { label: 'About', href: '#about' },
+    { label: 'Skills', href: '#skills' },
+    { label: 'Projects', href: '#projects' },
+    { label: 'Experience', href: '#experience' },
+    { label: 'Education', href: '#education' },
+    { label: 'Contact', href: '#contact' },
+  ],
+}
