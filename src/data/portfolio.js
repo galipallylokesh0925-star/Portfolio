@@ -58,6 +58,23 @@ export const portfolio = {
       github: '',
       liveDemo: '',
     },
+    {
+      id: 'medicine-recommend-system',
+      name: 'Medicine Recommend System',
+      category: 'Healthcare & Web Application',
+      overview:
+        'A modern web-based medicine recommendation system designed to provide users with medicine-related recommendations through an interactive and user-friendly interface.',
+      description:
+        'A modern web-based medicine recommendation system designed to provide users with medicine-related recommendations through an interactive and user-friendly interface.',
+      technologies: ['React', 'TypeScript', 'Vite', 'HTML', 'CSS', 'JavaScript'],
+      features: [
+        'Interactive medicine recommendation interface',
+        'User-friendly search and discovery',
+        'Built with React, TypeScript & Vite',
+      ],
+      github: 'https://github.com/galipallylokesh0925-star/medicine-recommend-system',
+      liveDemo: '#',
+    },
   ],
   experience: [
     {

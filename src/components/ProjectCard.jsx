@@ -28,8 +28,8 @@ export function ProjectCard({ project }) {
       </ul>
 
       <div className="project-links">
-        {project.github && <a className="btn btn-ghost" {...githubLink}>GitHub</a>}
         {project.liveDemo && <a className="btn btn-secondary" {...liveDemoLink}>Live Demo</a>}
+        {project.github && <a className="btn btn-ghost" {...githubLink}>GitHub</a>}
       </div>
     </article>
   )
